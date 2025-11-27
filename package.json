@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate-og": "node generate-og-images.js",
+    "generate-og": "node generate-og-images.mjs",
     "prebuild": "npm run generate-og"
   },
   "keywords": [],
