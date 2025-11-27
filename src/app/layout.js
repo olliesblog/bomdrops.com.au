@@ -36,7 +36,7 @@ export const metadata = {
     siteName: 'BoMdrop.com.au',
     images: [
       {
-        url: '/og-image.svg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'BoMdrop: What $96.5 Million AUD Could Have Bought Instead',
@@ -47,7 +47,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'BoMdrop: What $96.5 Million AUD Could Have Bought Instead',
     description: 'Instead of spending $96.5 million on BOM.gov.au redesign, Australia could have bought...',
-    images: ['/og-image.svg'],
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
