@@ -76,7 +76,7 @@ for (const item of comparisons) {
           {
             style: {
               fontSize: '68px',
-              fontWeight: 'bold',
+              fontWeight: '900',
               marginBottom: '15px',
               color: '#FFD700',
             },
