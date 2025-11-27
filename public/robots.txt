@@ -1,0 +1,18 @@
+# BOMdrop.com.au - Satirical Analysis of $95.6M BOM Website Redesign
+# All content is sourced from public government records
+
+User-agent: *
+Allow: /
+
+# Block audit page until completed
+Disallow: /audit/
+
+# Block search results pages
+Disallow: /search/
+Disallow: /search/?q=
+
+# Sitemap location
+Sitemap: https://bomdrop.com.au/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

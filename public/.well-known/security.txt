@@ -1,0 +1,10 @@
+Contact: https://x.com/UnderdogDigital
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://bomdrop.com.au/.well-known/security.txt
+Policy: https://bomdrop.com.au/methodology/
+
+# Security Policy
+# This is a static website with no server-side processing or user authentication.
+# All data is sourced from public government records and Senate Estimates.
+# No personal data is collected or stored.
