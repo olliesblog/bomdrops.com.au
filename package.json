@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "npm run build && bash export-site.sh",
     "start": "next start",
     "lint": "next lint",
     "generate-og": "node generate-og-images.mjs",
