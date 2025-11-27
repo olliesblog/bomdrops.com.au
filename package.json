@@ -3,16 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-og": "node generate-og-images.js",
+    "prebuild": "npm run generate-og"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vercel/og": "^0.8.5",
     "next": "^14.2.33",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

@@ -72,11 +72,20 @@ export async function generateMetadata({ params }) {
       description,
       type: 'article',
       url: `https://bomdrop.com.au/compare/${item.id}/`,
+      images: [
+        {
+          url: `/og/${item.id}.png`,
+          width: 1200,
+          height: 630,
+          alt: `${item.icon} ${item.name} - ${quantity.toLocaleString()} instead of $96.5M on BOM.gov.au`,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
+      images: [`/og/${item.id}.png`],
     },
     alternates: {
       canonical: `https://bomdrop.com.au/compare/${item.id}/`,
